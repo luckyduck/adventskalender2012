@@ -52,8 +52,9 @@
         NSDictionary *json = [NSJSONSerialization JSONObjectWithData:jsonData
                                                              options:0
                                                                error:nil];
-        return [json objectForKey:@"message"];
         
+        return [[[[json objectForKey:@"messages"] objectForKey:@"error"] objectAtIndex:0] objectForKey:@"message"];
+                
     } else {
         return [error localizedDescription];
     }
