@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B353DA166B956000A7C755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B353D9166B956000A7C755 /* UIKit.framework */; };
+		02B353DC166B956000A7C755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B353DB166B956000A7C755 /* Foundation.framework */; };
+		02B353DE166B956000A7C755 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B353DD166B956000A7C755 /* CoreGraphics.framework */; };
+		02B353E4166B956000A7C755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02B353E2166B956000A7C755 /* InfoPlist.strings */; };
+		02B353E6166B956000A7C755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B353E5166B956000A7C755 /* main.m */; };
+		02B353EA166B956000A7C755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B353E9166B956000A7C755 /* AppDelegate.m */; };
+		02B353EC166B956000A7C755 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B353EB166B956000A7C755 /* Default.png */; };
+		02B353EE166B956000A7C755 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B353ED166B956000A7C755 /* Default@2x.png */; };
+		02B353F0166B956000A7C755 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B353EF166B956000A7C755 /* Default-568h@2x.png */; };
+		02B353F3166B956000A7C755 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B353F1166B956000A7C755 /* MainStoryboard.storyboard */; };
+		02B353F6166B956000A7C755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B353F5166B956000A7C755 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02B353D5166B956000A7C755 /* Adventskalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventskalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B353D9166B956000A7C755 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02B353DB166B956000A7C755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02B353DD166B956000A7C755 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02B353E1166B956000A7C755 /* Adventskalender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adventskalender-Info.plist"; sourceTree = "<group>"; };
+		02B353E3166B956000A7C755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02B353E5166B956000A7C755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02B353E7166B956000A7C755 /* Adventskalender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adventskalender-Prefix.pch"; sourceTree = "<group>"; };
+		02B353E8166B956000A7C755 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02B353E9166B956000A7C755 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02B353EB166B956000A7C755 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		02B353ED166B956000A7C755 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02B353EF166B956000A7C755 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		02B353F2166B956000A7C755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		02B353F4166B956000A7C755 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02B353F5166B956000A7C755 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B353D2166B955F00A7C755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B353DA166B956000A7C755 /* UIKit.framework in Frameworks */,
+				02B353DC166B956000A7C755 /* Foundation.framework in Frameworks */,
+				02B353DE166B956000A7C755 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B353CA166B955F00A7C755 = {
+			isa = PBXGroup;
+			children = (
+				02B353DF166B956000A7C755 /* Adventskalender */,
+				02B353D8166B956000A7C755 /* Frameworks */,
+				02B353D6166B956000A7C755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B353D6166B956000A7C755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B353D5166B956000A7C755 /* Adventskalender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B353D8166B956000A7C755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02B353D9166B956000A7C755 /* UIKit.framework */,
+				02B353DB166B956000A7C755 /* Foundation.framework */,
+				02B353DD166B956000A7C755 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02B353DF166B956000A7C755 /* Adventskalender */ = {
+			isa = PBXGroup;
+			children = (
+				02B353E8166B956000A7C755 /* AppDelegate.h */,
+				02B353E9166B956000A7C755 /* AppDelegate.m */,
+				02B353F1166B956000A7C755 /* MainStoryboard.storyboard */,
+				02B353F4166B956000A7C755 /* ViewController.h */,
+				02B353F5166B956000A7C755 /* ViewController.m */,
+				02B353E0166B956000A7C755 /* Supporting Files */,
+			);
+			path = Adventskalender;
+			sourceTree = "<group>";
+		};
+		02B353E0166B956000A7C755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B353E1166B956000A7C755 /* Adventskalender-Info.plist */,
+				02B353E2166B956000A7C755 /* InfoPlist.strings */,
+				02B353E5166B956000A7C755 /* main.m */,
+				02B353E7166B956000A7C755 /* Adventskalender-Prefix.pch */,
+				02B353EB166B956000A7C755 /* Default.png */,
+				02B353ED166B956000A7C755 /* Default@2x.png */,
+				02B353EF166B956000A7C755 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B353D4166B955F00A7C755 /* Adventskalender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B353F9166B956000A7C755 /* Build configuration list for PBXNativeTarget "Adventskalender" */;
+			buildPhases = (
+				02B353D1166B955F00A7C755 /* Sources */,
+				02B353D2166B955F00A7C755 /* Frameworks */,
+				02B353D3166B955F00A7C755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adventskalender;
+			productName = Adventskalender;
+			productReference = 02B353D5166B956000A7C755 /* Adventskalender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B353CC166B955F00A7C755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jan Brinkmann";
+			};
+			buildConfigurationList = 02B353CF166B955F00A7C755 /* Build configuration list for PBXProject "Adventskalender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02B353CA166B955F00A7C755;
+			productRefGroup = 02B353D6166B956000A7C755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B353D4166B955F00A7C755 /* Adventskalender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B353D3166B955F00A7C755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B353E4166B956000A7C755 /* InfoPlist.strings in Resources */,
+				02B353EC166B956000A7C755 /* Default.png in Resources */,
+				02B353EE166B956000A7C755 /* Default@2x.png in Resources */,
+				02B353F0166B956000A7C755 /* Default-568h@2x.png in Resources */,
+				02B353F3166B956000A7C755 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B353D1166B955F00A7C755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B353E6166B956000A7C755 /* main.m in Sources */,
+				02B353EA166B956000A7C755 /* AppDelegate.m in Sources */,
+				02B353F6166B956000A7C755 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02B353E2166B956000A7C755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B353E3166B956000A7C755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02B353F1166B956000A7C755 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B353F2166B956000A7C755 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B353F7166B956000A7C755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02B353F8166B956000A7C755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B353FA166B956000A7C755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adventskalender/Adventskalender-Prefix.pch";
+				INFOPLIST_FILE = "Adventskalender/Adventskalender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02B353FB166B956000A7C755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adventskalender/Adventskalender-Prefix.pch";
+				INFOPLIST_FILE = "Adventskalender/Adventskalender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B353CF166B955F00A7C755 /* Build configuration list for PBXProject "Adventskalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B353F7166B956000A7C755 /* Debug */,
+				02B353F8166B956000A7C755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B353F9166B956000A7C755 /* Build configuration list for PBXNativeTarget "Adventskalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B353FA166B956000A7C755 /* Debug */,
+				02B353FB166B956000A7C755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B353CC166B955F00A7C755 /* Project object */;
+}
