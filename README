@@ -1,0 +1,11 @@
+This is project served as example for an guest article that was published on webguys.de . It's a very basic example which shows how to make use of the Magento REST API in iOS projects.
+
+References:
+- link to the article (german)
+http://www.webguys.de/magento/adventskalender/turchen-03-mit-ios-zur-magento-api/
+
+- SVProgressHUD  
+https://github.com/samvermette/SVProgressHUD
+
+- AFNetworking
+https://github.com/AFNetworking/AFNetworking
